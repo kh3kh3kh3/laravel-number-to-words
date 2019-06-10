@@ -32,7 +32,7 @@ if (! function_exists('n2c')) {
      * @param null|string|array $unit
      * @return string
      */
-    function n2c($number, $unit = 'đồng', string $dictionary = null): string
+    function n2c($number, $unit = 'đồng./.', string $dictionary = null): string
     {
         $currentDictionary = N2WFacade::$dictionary;
         N2WFacade::$dictionary = $dictionary;
