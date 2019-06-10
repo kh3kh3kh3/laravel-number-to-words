@@ -66,16 +66,16 @@ n2w(24);
 
 ```php
 use N2W;
-
-// năm triệu sáu trăm chín mươi nghìn bảy trăm đồng
-N2W::toCurrency(5690700);
+//ucfirst ký tự viết hoa đầu tiên cho đẹp mắt
+// Năm triệu sáu trăm chín mươi nghìn bảy trăm đồng
+ucfirst(N2W::toCurrency(5690700));
 ```
 
 + Sử dụng thông qua hàm hổ trợ `n2c`:
 
 ```php
-// chín mươi lăm triệu năm trăm nghìn hai trăm đồng
-n2c(95500200);
+// Chín mươi lăm triệu năm trăm nghìn hai trăm đồng
+ucfirst(n2c(95500200));
 ```
 
 Ngoài ra ta còn có thể sử dụng đơn vị tiền tệ khác thông qua tham trị thứ 2 của phương thức
