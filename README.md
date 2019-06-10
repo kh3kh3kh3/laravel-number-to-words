@@ -22,6 +22,8 @@ Cài đặt Laravel Number To Words thông qua [Composer](https://getcomposer.or
 composer require phpviet/laravel-number-to-words
 ```
 
+Bị lỗi thiếu file "Interface Illuminate\Contracts\Support\Deferrable Provider.php" not found thì tải file này gắn vào
+https://github.com/laravel/framework/blob/5.8/src/Illuminate/Contracts/Support/DeferrableProvider.php
 ## Cách sử dụng
 
 ### Các tính năng của extension:
